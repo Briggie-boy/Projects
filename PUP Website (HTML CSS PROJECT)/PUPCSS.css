@@ -1,0 +1,546 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.logo
+{
+    position: absolute;
+    height: auto;
+    width: 75px;
+    margin:-3px;
+    margin-left: 10px;
+}
+body
+{
+    background-image: url(PUP_BG.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.Name
+{
+    position: absolute;
+    text-align: left;
+    font-family: cinzel;
+    font-weight: bold;
+    margin: 25px;
+    margin-left: 90px;
+    font-size: 16px;
+}
+.Name a
+{
+    text-decoration: none;
+    color: #3f0000;
+}
+.below
+{
+    position: absolute;
+    text-align: left;
+    font-family: cinzel;
+    margin: 45px;
+    margin-bottom: 90px;
+    margin-left: 90px;
+    font-size: 14px;
+    color: #000000;
+    font-weight: bold;
+}
+.menu-bar
+{
+    z-index: 999;
+    background: transparent;
+    text-align: right;
+    font-family: Helvetica;
+    font-weight: bold;
+}
+.menu-bar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: #1b0000;
+}
+.menu-bar ul li
+{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+
+}
+.menu-bar ul li a
+{
+    text-decoration: none;
+    color: #1b0000;
+}
+.menu-bar ul li:hover
+{
+    z-index: 999;
+    background: #ffebba;
+    border-radius: 3px;
+}
+.sub-menu-1
+{
+    display: none;
+    position: absolute;
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+    display: block;
+    position: absolute;
+    box-shadow: #0000;
+    background: #ffebba;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+    width: 150px;
+    padding: 10px;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child
+{
+    border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:hover
+{
+    background: #ffd56c;
+    border-radius: 3px;
+}
+.sub-menu-2
+{
+    display: none;
+    position: absolute;
+}
+.menu-bar ul li:hover .sub-menu-2
+{
+    display: block;
+    position: absolute;
+    box-shadow: #0000;
+    background: rgba(114, 1, 1);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-2 ul
+{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-2 ul li
+{
+    width: 85px;
+    padding: 8px;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-2 ul li:last-child
+{
+    border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-2 ul li:hover
+{
+    background: #610202;
+    border-radius: 15px;
+}
+hr.line
+{
+    border: none;
+    height: 4px;
+    background-color: #DAA520;
+}
+.PIC1
+{
+    padding: auto;
+    position: relative;
+    height: auto;
+    display: block;
+    width: 800px;
+    margin-top: 30px;
+    margin-left: 270px;
+    image-resolution: 300dpi;
+}
+.PIC
+{
+    padding: auto;
+    position: relative;
+    height: auto;
+    display: block;
+    width: 900px;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    image-resolution: 300dpi;
+    align-items: center;
+}
+.PIC2
+{
+    padding: auto;
+    position: relative;
+    height: auto;
+    display: block;
+    width: 500px;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    image-resolution: 300dpi;
+    align-items: center;
+}
+.rec
+{
+    z-index: 999;
+    background: #3f0000;
+    padding: 20px;
+    text-align: right;
+    font-family: Cinzel;
+    font-weight: bold;
+    text-align: center;
+    margin: 30px;
+    font-size: 25px;
+}
+.rec p
+{
+    display: inline;
+    list-style: none;
+    color: #DAA520;
+}
+hr.line1
+{
+    border: none;
+    margin: 10px;
+    height: 4px;
+    background-color: #DAA520;
+}
+.FP1
+{
+    position: relative;
+    border: 3px solid;
+    height: 300px;
+    width: auto;
+    border-color: #24262b;
+    margin: 40px;
+}
+.FP2
+{
+    position: relative;
+    border: 3px solid;
+    height: 300px;
+    width: auto;
+    border-color: #24262b;
+    margin: 40px;
+    margin-left: 60px;
+}
+.FP3
+{
+    position: relative;
+    border: 3px solid;
+    height: 300px;
+    width: auto;
+    border-color: #24262b;
+    margin: 40px;
+    margin-left: 65px;
+    margin-right: 10px;
+}
+.container
+{ 
+    max-width: 1170px;
+    margin: auto;
+}
+.row
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer{
+    background-color: #3f0000;
+    padding:70px 0;
+}
+.footer-col
+{
+    width:25%;
+    padding: 0 15px;
+}
+.footer-col ul
+{
+    list-style-type: none;
+    color: #fff;
+}
+.footer-col h4
+{
+    font-size: 18px;
+    color: #DAA520;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-size: 500;
+    position: relative;
+}
+.footer-col h4:before
+{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #DAA520;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul li:not(:lostchild)
+{
+    margin-bottom: 10px;
+}
+.footer-col ul li a
+{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover
+{
+    color: #fff;
+    padding-left: 8px;
+}
+.factory-col .social-links a
+{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin: 10x 10x 0;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    transition: all 0.5s ease;
+
+}
+.factory-col .social-links a:hover
+{
+    color: #ffffff;
+    background-color: #fff;
+}
+.copyright{
+    width: 500px;
+    display: inline-block;
+    color: #e6e6e6;
+}
+.table-faculty {
+    background-color: #880000;
+    border-collapse: collapse;
+    width:  750px;
+    margin: 0px;
+    margin-bottom: 50px;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 16px;
+    color:#fff;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+  
+  th, td {
+    border: 1px solid #610000;
+    text-align: left;
+    padding: 10px;
+    position: relative;
+  }
+  
+  th {
+    background-color: #610000;
+  }
+  
+  tr:hover {
+    color: #DAA520;
+  }
+  .title-paragraph{
+    font-size: 24px;
+    font-family: 'Noto Sans', sans-serif;
+    color: #880000;
+    line-height: 30px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+    font-weight: 600;
+    margin-left: 50px;
+    overflow: auto;
+    padding-top: 25px;
+    padding-right: 70px;
+    padding-left: 50px;
+  }
+.paragraph {
+  font-size: 17px;
+  font-family: 'Noto Sans', sans-serif;
+  color: #ffffff;
+  line-height: 23px;
+  vertical-align: baseline;
+  line-height: 30px;
+  letter-spacing: normal;
+  word-spacing: 0%;
+  font-weight: 300;
+  margin-left: 50px;
+    overflow: auto;
+    padding-top: 0px;
+    padding-right: 70px;
+    padding-left: 50px;
+
+  }
+  .Academic-title{
+    width: 55.6%;
+    display: inline-block;
+    text-align: center;
+    margin-left: 300px;
+    margin-right: auto;
+    padding: 5px 10px;
+    background-color: #1b0000;
+    text-shadow: #000000;
+    margin-top: 25px;
+  }
+.Academic-title2{
+    width: 55.6%;
+    display: inline-block;
+    text-align: center;
+    margin-left: 300px;
+    margin-right: auto;
+    padding: 5px 10px;
+    background-color: #1b0000;
+    text-shadow: #000000;
+    margin-top: -24px;
+  }
+  .Academic-title h2{
+    color: #DAA520;
+    font-family: Arial Black;
+    font-size: 30px;
+    outline: #24262b;
+    font-weight: 100%;
+
+  }
+  .Academic-title2 h2{
+    color: #DAA520;
+    font-family: Arial Black;
+    font-size: 30px;
+    outline: #24262b;
+    font-weight: 100%;
+
+  }
+  .Academic-title p{
+    color: #fff;
+    font-size: 25px;
+  }
+  .Academic-title2 p{
+    color: #fff;
+    font-size: 25px;
+  }
+  @media (max-width: 600px) {
+    .copyright {
+        width: 400px;
+    }
+    .container {
+        max-width: 100%; /* Adjust the max-width for smaller screens */
+        padding: 0 10px; /* Optional: Add padding to the container */
+    }
+    .footer-col {
+        width: 100%; /* Two columns on smaller screens */
+        padding: 0 10px;
+        
+    }
+    .menu-bar ul {
+        text-align: center;
+    }
+    .menu-bar ul li {
+        width: auto;
+        margin: 10px 0;
+        padding: 10px;
+    }
+    .sub-menu-1, .sub-menu-2 {
+        position: static;
+        display: none;
+    }
+    .Name {
+        position: relative;
+        margin: 0;
+        text-align: center;
+    }
+    .below {
+        text-align: center;
+        position: relative;
+        margin: 0;
+    }
+    .PIC {
+        position: relative;
+        display: block;
+        width: 100%; /* Set width to 100% to make it responsive */
+        margin-left: auto; /* Center the image horizontally */
+        margin-right: auto;
+        max-width: 100%; /* Ensure image doesn't exceed container width */
+    }
+    .FP1 {
+        margin: 0;
+        margin-left: 90px;
+    }
+    .FP2 {
+        margin-left: 30px;
+        margin-right: 0;
+    }
+    .FP3 {
+        margin-left: 90px;
+        margin-right: 0;
+    }
+}
+.slider-wrapper{
+    position: relative;
+    max-width: 48rem;
+    margin 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.slider{
+    display: flex;
+    aspect-ratio: 16 / 9;
+    overflow: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%,0%, 0.25);
+    border-radius: 0.5rem;
+    
+}
+
+.slider img{
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    object-fit: cover;
+
+}
+.slider-nav{
+    display: flex;
+    column-gap: 1rem;
+    position: absolute;
+    bottom: 1.25rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+.slider-nav a{
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 50%;
+    background-color: #000000;
+    opacity: 0.9;
+    transition: opacity ease 250ms;
+}
+.slider-nav a:hover{
+    opacity: 1;
+    background-color: maroon;
+}
